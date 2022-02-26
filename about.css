@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-image: url("background1.jpeg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 140%;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: auto;
+}
+.main-container{
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(228,228,228, 0.7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+ }
+
+h1{
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+ }
+
+.wrap-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.wrap-container img{
+    width: 400px;
+    justify-content: center;
+    align-content: center;
+    filter: grayscale(100%);
+    border-radius: 10px;
+    padding-right: 30px;
+    
+}
+
+.wrap-container  img:hover{
+    filter: grayscale(0%);
+}
+
+.wrap-container p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 2;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-left: 50px;
+    width: 40%;
+
+  }
+
+  .morepics img {
+    width: 250px;
+    height: 200px;
+    margin: 50px;
+    margin-top: 80px;
+    filter: grayscale(100%);
+    border-radius: 100pt;
+  }
+
+.morepics img:hover{
+    filter: grayscale(0%);
+}
+
+ 
+  @media (max-width: 991px) {
+     .section2 {
+      background-position: 0% 50%;
+    }
+    .section2 {
+      min-height: 478px;
+    }
+  }
+    
+    .btn{
+      background: rgb(75, 99, 64);
+      color: #ebe1d2;
+      text-align: center;
+      padding: 10px 10px 10px 10px;
+        width: 30%;
+        height: 20px;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        ;
+    }
+     h2{
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-size: 25pt;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin: 20px auto 0;
+      }
+    
+    header, main, footer{
+        border: .5px solid black;
+        flex: 1;
+    }
+    
+    header nav{
+        width: 600px;
+    }
+    
+    header nav ul{
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    header img{
+        width: 200px;
+        display: flex;
+        margin: auto;
+        padding-top: 10px;
+    }
+    
+    nav > a {
+        color: black;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-size: 10pt;
+        text-align: center;
+        letter-spacing: 5px;
+        
+      }
+    
+    a:hover {
+        background-color: black;
+        color: white;
+    }
+
+    #mobile-navigation {
+        background: url(hamburgericon.png) no-repeat 0 0;
+        display: block;
+        height: 50px;
+        margin: 30px auto 0;
+        padding: 0;
+        width: 50px;
+    }
+
+@media (max-width: 568px) {
+#header {
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+}
+
+@media (max-width: 568px){
+#header ul {
+    border: 1px solid #fff;
+    display: none;
+    left: 50%;
+    margin-left: -45%;
+    padding: 0;
+    position: absolute;
+    width: 90%;
+    z-index: 1001;
+}
+}
+    
+    .book-now {
+        background: black;
+        color: #fff;
+        text-align: center;
+          width: 110x;
+          height: 30px;
+          font-family: 'Zen Kaku Gothic Antique', sans-serif;
+          font-size: 12px;
+          line-height: 1.2;
+          text-transform: uppercase; 
+      }
+    
+      .book-now2{
+          width: 150px;
+          background: black;
+        color: #fff;
+        text-align: center;
+          height: 40px;
+          font-family: 'Zen Kaku Gothic Antique', sans-serif;
+          font-size: 2ppx;
+          line-height: 1.2;
+          text-transform: uppercase; 
+          font-weight:400;
+      }
+    
+    .logobtn{
+        width: 400px;
+    }
+    
+    footer{
+        background: black;
+        text-align: center;
+        color: white;
+        line-height: 30px;
+    }
+    

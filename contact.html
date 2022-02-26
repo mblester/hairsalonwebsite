@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;700&family=Bebas+Neue&family=Exo+2:wght@800&family=Fugaz+One&family=Montserrat:wght@400;700&family=Questrial&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <div class="logobtn">
+        <img src="chaelalogo.png" class="logo" alt="beautiful crazy by chaela logo" alt= "ChaelasLogo"></div>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li> <a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><input type= button onClick="location.href='https://www.facebook.com/BeautifulCrazybyChaela'" value="BOOK NOW" class="book-now"></li>
+            </ul>    
+    </nav>
+</header>
+    <form action="results.html" method="post" class ="contactForm">
+    <div class="container-contact"> 
+        <div class="wrap-contact">
+        <span class="contact-title">Stay in Touch!</span>
+        <div>
+            Name:<br>
+        <input type="text" class="inputBox" name="name" id="name" placeholder="Your name"><br>
+        </div>
+        <div>
+        <label class="email">Email:</label><br>
+        <input type="text" class="inputBox" name="email" id="email"  placeholder="Your email"><br>
+        </div>
+        <div>
+          <label class="fill-label">Phone:</label><br>
+          <input type="text" class="inputBox" name="phone" id="phone"  placeholder="Phone #"><br>
+           </div> 
+           <div class="select-container">
+           <span class="referral-input">How did you hear about us?</span><br>
+            <select class="referral" name="inputBox" tabindex="-1" aria-hidden="true">
+            <option>Select</option>
+            <option>Facebook</option>
+            <option>Friend</option>
+            <option>Google</option>
+            <option>Morgan Lester</option>
+            </select>
+            </div>
+            <div>
+            <label class="response">Can we contact you?</label><br>
+                <input type="checkbox" id="accept" name="accept">
+                <label for="accept"> Yes</label><br>
+                <input type="checkbox" id="deny" name="deny">
+                <label for="deny"> No</label><br>
+            </div>
+            <div class="birthday">
+                <label for="birthday">Tell us your birthday for a birthday discount off your service! (optional)</label><br>
+                <input type="date" id="birthday" name="birthday">
+              </div>
+              <div>
+        <span class="message">Message:</span><br>
+        <textarea class="input" name="message" placeholder="Your message here..."></textarea><br>
+    </div>
+       <br>
+       <input type= button onClick="location.href='reply.html'" value="Submit" class="btn-submit rounded-0 py-2 px-4">
+       <span class="submitting"><input type="submit"></span>
+        
+            </div>
+</div>
+</form>
+<footer>
+    <p> <i>Studio J, 8210 Memphis Ave, Lubbock, TX 79423</i><br>
+        Call us today! - (806) 368-8109
+    </p>
+</footer>
+</body>
+
+</html>
