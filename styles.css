@@ -13,35 +13,7 @@ body {
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
-@media screen and (max-width: 568px){
-#mobile-navigation {
-    background: url("hamburger.png") no-repeat 0 0;
-    display: block;
-    height: 50px;
-    margin: 30px auto 0;
-    padding: 0;
-    width: 50px;
-}
-}
-    
-    @media screen and (max-width: 568px){
-    #mobile-navigation ul {
-        border: 1px solid #fff;
-        display: none;
-        left: 50%;
-        margin-left: -45%;
-        padding: 0;
-        position: absolute;
-        width: 90%;
-        z-index: 1001;
-    }
-    }
 
-    @media screen and (max-width: 568px){
-        footer {
-            display: none;
-        }
-        }
 header{
     display: flex;
     flex-direction: column;
@@ -51,19 +23,23 @@ header{
     min-height: auto;
 }
 
+
+#hamburger{
+    display: none;
+}
+
 .main-container{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding: 15px;
-        margin-top: -30px;
+       
 }
 
 .img-container{
-    height: 600px;
-    background-color: rgb(254,254,254, 0.7);
+    height: auto;
+    background-color: rgb(228,228,228, 0.7);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -157,9 +133,56 @@ footer{
     text-align: center;
     color: white;
     line-height: 30px;
+    margin-top: 60px;
 }
 
 @viewport {
     width: device-width ;
     zoom: 1.0 ;
   }
+
+  @media screen and (max-width: 600px){
+    #mobile-navigation {
+        background: url("hamburger.png") no-repeat 0 0;
+        display: block;
+        height: 50px;
+        margin: 30px auto 0;
+        padding: 0;
+        width: 50px;
+    }
+    li {
+        display: none;
+    }
+    #hamburger{
+        display: block;
+            height: 50px;
+            width: 50px;
+            margin-bottom: 20px;
+            margin-top: -80px;
+    }
+    .beautifulHair{
+        display: none;
+    }
+    h1{
+      line-height: 1.3;
+        padding-left: 20px;
+    }
+  .button-group{
+        padding-top: -20px;
+        margin-left: 30pz;
+
+    }
+    .book-now2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    }
+    
+        @media screen and (max-width: 800px){
+            footer p{
+              
+            }
+            }

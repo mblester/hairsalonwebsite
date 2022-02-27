@@ -24,10 +24,11 @@ header{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding: 15px;
+    
        
     }
-    .wrap-contact {
+   
+.wrap-contact {
         width: 500px;
         background-color: rgb(228,228,228);
         border-radius: 10px;
@@ -200,3 +201,36 @@ header{
         line-height: 30px;
     }
     
+    #hamburger{
+        display: none;
+    }
+    
+    @media screen and (max-width: 650px){
+        #mobile-navigation {
+            display: block;
+            height: 50px;
+            margin: 30px auto 0;
+            padding: 0;
+            width: 50px;
+            background-size:90%;
+        }
+        a {
+            display: none;
+        }
+    .book-now{
+        display: none;
+    }
+        #hamburger{
+            display: block;
+            height: 50px;
+            width: 50px;
+            margin-bottom: 20px;
+        }
+    body{
+    height: 125%;
+    }
+    .wrap-contact{
+        margin-left: 0px;
+        width: 450px;
+    }
+}
